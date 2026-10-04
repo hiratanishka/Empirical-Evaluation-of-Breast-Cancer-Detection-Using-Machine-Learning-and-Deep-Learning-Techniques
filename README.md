@@ -120,21 +120,6 @@ Several reviewed studies combine deep feature extraction with traditional machin
 
 ---
 
-## 📈 Key Findings
-
-The study highlights the strong performance achieved by modern AI-based breast cancer classification approaches.
-
-The proposed evaluation reports accuracies of:
-
-| Training Data | Reported Accuracy |
-|---|---:|
-| 70% | 97.81% |
-| 80% | 98.00% |
-| 90% | 100.00% |
-
-The broader literature comparison also demonstrates that high-performing deep-learning and hybrid approaches can achieve very strong classification results, although direct comparison between studies should account for differences in datasets, preprocessing, train-test splits, and evaluation protocols.
-
----
 
 ## 💡 Main Takeaways
 
@@ -148,64 +133,6 @@ The broader literature comparison also demonstrates that high-performing deep-le
 
 ---
 
-## 🛠️ Technologies Relevant to This Work
-
-Depending on the experiment or implementation, the following tools are commonly used:
-
-- Python
-- NumPy
-- Pandas
-- Scikit-learn
-- TensorFlow / Keras
-- PyTorch
-- OpenCV
-- Matplotlib
-- Seaborn
-- Jupyter Notebook / Google Colab
-
----
-
-## 📁 Suggested Repository Structure
-
-```text
-.
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── notebooks/
-│   └── experiments.ipynb
-│
-├── results/
-│   ├── figures/
-│   └── tables/
-│
-└── docs/
-    └── paper-details.md
-```
-
-The dataset itself should generally not be committed to GitHub. Instead, provide links or instructions for obtaining public datasets from their original sources.
-
----
-
-## ▶️ Reproducing Experiments
-
-If implementation notebooks or scripts are included in this repository:
-
-1. Clone the repository.
-2. Install the required Python packages.
-3. Download the required dataset from its official source.
-4. Update dataset paths in the notebook or script.
-5. Run the preprocessing and training cells sequentially.
-6. Evaluate the model using the same metrics and split strategy described in the experiment.
-
-Example:
-
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ## 📚 Citation
 
